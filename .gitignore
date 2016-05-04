@@ -1,0 +1,20 @@
+#ignore list
+.classpath
+.project
+
+.settings
+target
+logs
+*/.classpath
+*/.project
+
+.idea
+*.iml
+*.ipr
+*.iws
+
+.metadata
+
+temp
+.tmp
+.DS_Store

@@ -1,0 +1,16 @@
+# Spring properties
+spring:
+  application:
+     name: demo-service  # Service registers under this name
+
+# Discovery Server Access
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+
+# HTTP Server
+server:
+  port: 2222   # HTTP (Tomcat) port
